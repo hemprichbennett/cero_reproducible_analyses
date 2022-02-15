@@ -1,0 +1,4 @@
+# file extensions for git to ignore
+*.pptx
+*.png
+*.jpeg
