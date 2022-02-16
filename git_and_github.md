@@ -1,3 +1,5 @@
+(Companion piece to the powerpoint presentation I gave 2022-02-17, availalbe [here](https://www.dropbox.com/s/lf4hzc2tvv19gba/version_control_and_code_review.pptx?dl=0))
+
 N.B. all of the below assumes that you have git installed on your computer and linked to a github account. There's [tutorials on github](https://docs.github.com/en/get-started/quickstart/hello-world), some will vary depending on your operating system etc 
 
 
@@ -9,8 +11,11 @@ Briefly, git allows you to track changes to these plain text files, and undo the
 - can be synced with
 	- other machines
 	- other users
+- are available to the world, if you choose
 
-There are many ways to do this, for the R users among us the easiest is probably through Rstudio. There are however many other ways such as the [Github Desktop app](https://desktop.github.com), most code-editing software, and your computer's command-line interface. Most tutorials AREN'T for Rstudio, as most programmers don't use R or Rstudio. But the terminology and principles are the same.
+For most of us, code will need to be published when we publish our papers, and github is the most widely-accepted way of doing this. In theory you could push all your code to github right when the paper is accepted, but that denies us a lot of the advantages we would have had if we'd been using it as early as possible. If you're not using it yet, today's as early as possible: welcome.
+
+There are many ways to do all of this, for the R users among us the easiest is probably through Rstudio. There are however many other tools such as the [Github Desktop app](https://desktop.github.com), plugins for most code-editing software, and using computer's command-line interface. Most tutorials on git and github AREN'T for Rstudio, as most programmers don't use R or Rstudio. But the terminology and principles are the same no matter what you're using.
 
 # creating a git repo
 
@@ -51,7 +56,7 @@ Branches sound far more confusing than they actually are, and a lot of their doc
 
 This is useful for us for two reasons: firstly, by using branches we give ourselves the ability to write new code that might be crap, and not have it messing up our established code. Secondly, we can assign 'reviewers' on github when we choose to pull code from one branch into another. In our case, pulling code from a development branch into the 'main' one where the good code lives.
 
-You can make a new branch easily in Rstudio, using the 'New Branch' button in the Git pane.
+You can make a new branch easily in Rstudio, using the 'New Branch' button in the Git pane. Then, using this branch, you can write code as normal, commiting the changes as normal. But when you want to put that new code into the 'main' branch where the good code lives, you go onto repository on github and create a 'pull request': a request to pull the code from one branch into another. At this point you can assign reviewers to the pull request and they can go in and comment on the individual changes: suggesting improvements, giving feedback (positive and negative) and approving/rejecting the changes before they are then merged into the main branch. In this way we can regularly evaluate one another's code for understandability and whether or not it works. 
 
 
 # And finally (archiving forever)
