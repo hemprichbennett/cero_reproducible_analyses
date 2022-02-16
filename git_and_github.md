@@ -44,13 +44,14 @@ Your interactions with github will mostly be 'pushing' commits from your machine
 # Collaborating
 
 ## Basics:
-Now that your code is on github, it should be ready to collaborate on! If the repository is public, anyone can see it with the url. You can invite other users to the repository (whether it's public or private) by opening the repository on github, then clicking settings / collaborators. 
+Now that your code is on github, it should be ready to collaborate on! If the repository is public, anyone can see it with the url. You can invite other users to the repository (whether it's public or private) by opening the repository on github, then clicking settings / collaborators. At its most basic, this is all you need for collaborating and reviewing code, as your collaborators can see and edit the code. But there are some features which make this easier
 
-## 
+## Branches and official code-review
+Branches sound far more confusing than they actually are, and a lot of their documentation is a bit opaque as they're designed for , but they're a useful concept for us. In software development it can be useful to have multiple versions of a repository: typically there is a 'main' branch, which is where the code which definitely works lives. And then there can be multiple alternate branches where development takes place, without the risk of destroying the main app/pipeline/whatever. Once the code in a development branch is felt to be sound, it can then be brought into the 'main' branch where the good code lives.
 
+This is useful for us for two reasons: firstly, by using branches we give ourselves the ability to write new code that might be crap, and not have it messing up our established code. Secondly, we can assign 'reviewers' on github when we choose to pull code from one branch into another. In our case, pulling code from a development branch into the 'main' one where the good code lives.
 
-
-
+You can make a new branch easily in Rstudio, using the 'New Branch' button in the Git pane.
 
 
 # And finally (archiving forever)
