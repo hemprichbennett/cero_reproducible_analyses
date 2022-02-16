@@ -1,4 +1,4 @@
-(Companion piece to the powerpoint presentation I gave 2022-02-17, availalbe [here](https://www.dropbox.com/s/lf4hzc2tvv19gba/version_control_and_code_review.pptx?dl=0))
+(Companion piece to the powerpoint presentation I gave 2022-02-17, available [here](https://www.dropbox.com/sh/sbr83egmoxbelmi/AAB5dfkFYxer2-FtPW14EKXVa?dl=0))
 
 N.B. all of the below assumes that you have git installed on your computer and linked to a github account. There's [tutorials on github](https://docs.github.com/en/get-started/quickstart/hello-world), some will vary depending on your operating system etc 
 
