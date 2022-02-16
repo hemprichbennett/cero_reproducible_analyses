@@ -52,7 +52,7 @@ Branches sound far more confusing than they actually are, and a lot of their doc
 This is useful for us for two reasons: firstly, by using branches we give ourselves the ability to write new code that might be crap, and not have it messing up our established code. Secondly, we can assign 'reviewers' on github when we choose to pull code from one branch into another. In our case, pulling code from a development branch into the 'main' one where the good code lives.
 
 You can make a new branch easily in Rstudio, using the 'New Branch' button in the Git pane.
-
+Farts
 
 # And finally (archiving forever)
 
