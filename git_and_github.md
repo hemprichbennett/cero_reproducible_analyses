@@ -64,4 +64,6 @@ You can make a new branch easily in Rstudio, using the 'New Branch' button in th
 
 
 # Some useful references
+- A lot of the above was inspired by a tutorial Our Coding Club gave at Oxford in the before times, they have a bit of a walkthrough available [here](https://ourcodingclub.github.io/tutorials/git/index.html).
 - When your code is one day finished and the paper accepted, you'll want to create a permanent, archived version of it with a citable DOI. One of the easiest ways to do this is [archiving it with Zenodo](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content)
+- I referenced Micah Allen's tweet in the powerpoint, [his thread](https://twitter.com/micahgallen/status/1001362580710088704?s=20&t=kAMXkPqePQGI3RoI_qL1dA) is short but good. I think he's confused that he went viral with a tweet about directory structures, but nerds gonna nerd.
