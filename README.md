@@ -1,3 +1,3 @@
-Repository of instructions and examples for improving the reproducibility and ease of sharing of our analyses. Might be a one-off talk, might give a few. We'll see!
+Repository of instructions and examples for improving the reproducibility and ease of sharing of our analyses. I'll try to add more to this repository over time, but hopefully it provides a useful resource
 
-Part 1 of 1 (for now at least) is in the file 'git_and_github.md'
+I gave a 100mph talk on git and github, a walkthrough of what I said/meant is in the file 'git_and_github.md'. As git is awful at tracking files which aren't plain-text (e.g. videos, photos, anything that Microsoft has touched), the powerpoint I gave and video I recorded are available [here](https://www.dropbox.com/sh/sbr83egmoxbelmi/AAB5dfkFYxer2-FtPW14EKXVa?dl=0)
