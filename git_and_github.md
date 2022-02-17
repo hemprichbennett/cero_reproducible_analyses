@@ -59,7 +59,7 @@ This is useful for us for two reasons: firstly, by using branches we give oursel
 You can make a new branch easily in Rstudio, using the 'New Branch' button in the Git pane. Then, using this branch, you can write code as normal, commiting the changes as normal. But when you want to put that new code into the 'main' branch where the good code lives, you go onto repository on github and create a 'pull request': a request to pull the code from one branch into another. At this point you can assign reviewers to the pull request and they can go in and comment on the individual changes: suggesting improvements, giving feedback (positive and negative) and approving/rejecting the changes before they are then merged into the main branch. In this way we can regularly evaluate one another's code for understandability and whether or not it works. 
 
 
-# And finally (archiving forever)
+
 
 
 
