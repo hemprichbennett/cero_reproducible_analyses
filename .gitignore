@@ -4,3 +4,5 @@
 *.jpeg
 .Rproj.user
 *.mov
+.DS_Store
+.Rhistory
