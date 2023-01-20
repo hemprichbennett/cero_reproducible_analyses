@@ -24,7 +24,7 @@ If we're using Rstudio there are three ways we can start working with git and gi
 - Create an Rstudio project and click 'create a git repository'
 - Create a repository on github, and then when creating an Rstudio project choose 'version control > clone a project from a git repository'
 
-If you're using the first two options, you will then have to create an empty repository on github, and then github will provide's instructions on how to push your local repository to it. In the ppt/video I presented, I did the final option. When you create a repository on github you can specify if it should be public or private (everyone can see, or only people you specify can see), and invite any other github users who you think should have access. If you change your mind on any of this stuff later, you can change it.
+If you're using the first two options, you will then have to create an empty repository on github, and then github provides instructions on how to push your local repository to it. In the ppt/video I presented, I did the final option. When you create a repository on github you can specify if it should be public or private (everyone can see, or only people you specify can see), and invite any other github users who you think should have access. If you change your mind on any of this stuff later, you can change it.
 
 # Using the git repo
 
